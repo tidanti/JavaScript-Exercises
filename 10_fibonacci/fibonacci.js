@@ -9,11 +9,11 @@ const fibonacci = function(num) {
 
 function getErrorsOfInputValue(value) {
     if (!value) {
-        return 'OOPS!';
+        return 'OOPS';
     }
 
     if (value <= 0) {
-        return 'Enter a positive value > 0!';
+        return 'OOPS';
     }
 
     return '';
