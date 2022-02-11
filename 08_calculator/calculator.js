@@ -16,7 +16,7 @@ const sum = function(numArray) {
   }, 0);
 };
 
-const multiply = function(...numbers) {
+const multiply = function(numbers) {
   if (numbers.length === 0) {
     return 0;
   }
